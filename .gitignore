@@ -51,3 +51,4 @@ Thumbs.db
 *.tmp
 *.bak
 *.log
+test_day1_setup.py
