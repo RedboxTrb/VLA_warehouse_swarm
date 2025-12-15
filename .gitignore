@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Conda
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Experiments & Models
+experiments/checkpoints/*.zip
+experiments/checkpoints/*.pt
+experiments/checkpoints/*.pth
+experiments/logs/
+*.pt
+*.pth
+*.h5
+*.onnx
+*.pb
+
+# Data (too large for git)
+data/demonstrations/*.mp4
+data/demonstrations/*.avi
+data/demonstrations/*.jpg
+data/demonstrations/*.png
+data/sensor_logs/*.csv
+data/sensor_logs/*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.log
